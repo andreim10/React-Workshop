@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import BicycleList from './BicycleList';
+import BicycleList from './components/BicycleList';
 
 let bicycles = [
   { name: "Road bike", description:"The term road bicycle is used to describe bicycles built for traveling at speed on paved roads. Some sources use the term to mean racing bicycle. Other sources specifically exclude racing bicycles from the definition, using the term to mean a bicycle of a similar style but built more for endurance and less the fast bursts of speed desired in a racing bicycle; as such, they usually have more gear combinations and fewer hi-tech racing features.",image:"https://www.99bikes.com.au/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/s/c/scultura_se_my18_my2018_aus-2.jpg" ,isChecked: false},
